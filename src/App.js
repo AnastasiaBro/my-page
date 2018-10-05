@@ -32,7 +32,7 @@ class App extends Component {
 
             <BackdropComponent />
             
-            <Route exact path='/' component={AllNotes} />
+            <Route exact path='/my-page' component={AllNotes} />
             <Route path='/illustrations' component={AllIllustrations} />
             <Route path='/javascript' component={AllJS} />
             <Route path='/recipes' component={AllRecipes} />
