@@ -1,0 +1,25 @@
+.pumpkin__container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.pumpkin__first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pumpkin__text {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color: rgb(219, 167, 103);
+    font-weight: 400;
+}
+
+.pumpkin__time {
+    font-family: Playfair Display, "Arial", sans-serif;
+    font-size: 25px;
+    color: rgb(53, 156, 148);
+}

@@ -1,0 +1,111 @@
+.card {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    width: 120px;
+    height: auto;
+    background-color: white;
+    transition: 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.22);
+    z-index: 100;
+}
+
+.card__container-image {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: move;
+    overflow: hidden;
+}
+
+.card__container-title {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.card:hover {
+    transition: 0.3s;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+.card__image {
+    width: 100px;
+    height: auto;
+    cursor: move;
+}
+
+.сard__text {
+    font-family: inherit;
+    font-size: 14px;
+    color: rgba(7, 7, 7, 0.8);
+    width: 100px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    z-index: 10;
+    transition: 0.3s;
+}
+
+.card-first {
+    transform: rotate(-10deg);
+    top: 50px;
+    left: 100px;
+}
+
+.card-first p {
+    font-family: inherit;
+    font-size: 14px;
+    color: rgb(35, 161, 151);
+}
+
+.card-second {
+    transform: rotate(10deg);
+    top: 100px;
+    left: 500px;
+}
+
+.card-second p {
+    font-family: inherit;
+    font-size: 14px;
+    color: rgb(221, 154, 29);
+}
+
+.card-third {
+    transform: rotate(5deg);
+    top: 270px;
+    left: 750px;
+}
+
+.card-third p {
+    font-family: Gloria Hallelujah, "Arial", sans-serif;
+    font-size: 14px;
+    color: rgb(221, 58, 29);
+}
+
+.card-fourth {
+    transform: rotate(-3deg);
+    top: 320px;
+    left: 250px;
+}
+
+.card-fourth p {
+    font-family: inherit;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.card a:hover p {
+    color: rgb(23, 95, 89);
+    transition: 0.3s;
+}
+
+.card a {
+    text-decoration: none;
+}

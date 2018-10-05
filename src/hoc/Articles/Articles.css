@@ -1,0 +1,59 @@
+.allNotes__container {
+    width: 1000px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(248, 236, 223);
+    position: relative;
+    z-index: 10;
+}
+
+.allNotes__container:after {
+    content: '';
+    width: 600px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.allNotes__text {
+    font-size: 30px;
+    color: rgb(219, 167, 103);
+    font-weight: 400;
+}
+
+.allNotes__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 100;
+    position: relative;
+    align-items: stretch;
+}
+
+.allNotes__item {
+    width: 300px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.allNotes__item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.allNotes__item:nth-child(3) {
+    margin-right: 0;
+}

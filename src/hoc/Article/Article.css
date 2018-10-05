@@ -1,0 +1,75 @@
+.note__container {
+    width: 1000px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(248, 236, 223);
+    position: relative;
+    z-index: 10;
+}
+
+/* .note__title {
+    
+} */
+
+.note__first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.note__text {
+    width: 100%;
+    text-indent: 1.5em;
+    line-height: 30px;
+    margin-top: 0;
+    text-align: justify;
+}
+
+/* .note__text--wide {
+    width: 100%;
+} */
+
+.note__link {
+    text-decoration: none;
+    color: rgb(219, 167, 103);
+    font-weight: 600;
+}
+
+.note__link:hover {
+    color: rgb(216, 131, 27);
+}
+
+.note__link--blue {
+    color: rgb(53, 156, 148);
+}
+
+.note__link--blue:hover {
+    color: rgb(27, 131, 122);
+}
+
+.note__figure {
+    float: right;
+}
+
+.note__figure--left {
+    float: left;
+}
+
+.note__image {
+    width: 400px;
+    height: 300px;
+}
+
+.note__figcaption {
+    font-size: 14px;
+}

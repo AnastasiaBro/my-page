@@ -1,0 +1,56 @@
+@media (min-width: 320px) {
+  .body-style {
+      min-width: 320px;
+      margin-top: 0;
+      margin-bottom: 0;
+      
+      font-family: Playfair Display, "Arial", sans-serif;
+      font-weight: 700;
+      position: relative;
+      
+      background-size: auto;
+      background-repeat: repeat;
+  
+      position: relative;
+      background-color: black;
+      background-size: 100%;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .body-style {
+      
+      min-width: 1280px;
+      width: 100%;
+      position: relative;
+      background-color: white;
+      background-size: 100%;
+    }
+  
+    .page-main {
+      background-color: white;
+    }
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  /*-webkit-clip-path: inset(100%);*/
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-title {
+  font-family: 'Gloria Hallelujah', Arial, sans-serif;
+  text-align: center;
+  font-weight: 400;
+  color: rgb(53, 156, 148);
+}

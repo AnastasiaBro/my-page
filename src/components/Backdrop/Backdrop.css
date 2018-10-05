@@ -1,0 +1,34 @@
+@media (min-width: 1280px) {
+    .article {
+        position: relative;
+        z-index: 20;
+    }
+  
+    .article__container {
+      display: flex;
+      flex-direction: row;
+      width: 900px;
+      height: 550px;
+      border: 7px solid rgb(250, 226, 196);
+      transition: 0.5s;
+      position: relative;
+      
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .article__container:hover {
+      /*border: 7px solid rgb(197, 250, 246);*/
+      transition: 0.5s;
+    }
+  
+    .article__image {
+      width: 900px;
+      height: 550px;
+    }
+  
+    .article__description-block {
+      background-color: white;
+      flex: 1;
+    }
+}
